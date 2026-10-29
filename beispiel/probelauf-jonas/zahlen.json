@@ -1,0 +1,22 @@
+{
+  "unternehmen": "Jonas Fitness-KI (Beispiel)",
+  "kapital_ziel": 150000,
+  "startup": [
+    {"label": "Gründung und Rechtsform", "cost": 3000},
+    {"label": "Marke und Design", "cost": 4000}
+  ],
+  "ausgaben_monatlich": [
+    {"label": "App-Entwicklung (Freelancer)", "cost": 6000},
+    {"label": "KI-Schnittstelle und Hosting", "cost": 800},
+    {"label": "Marketing", "cost": 1500},
+    {"label": "Software und Tools", "cost": 300},
+    {"label": "Buchhaltung und Versicherung", "cost": 400},
+    {"label": "Gründergehalt", "cost": 3000}
+  ],
+  "einnahmen_monatlich": [0, 0, 0, 500, 1200, 2200, 3500, 5000, 6500, 8000, 9500, 11000],
+  "puffer_monate": 3,
+  "abgabe_anteil": 0.15,
+  "gruender": [{"name": "Jonas", "anteil": 1.0}],
+  "optionspool": 0.05,
+  "folgerunden": [{"name": "Seed 2", "betrag": 1000000, "pre_money": 4000000}]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "seed-skill",
+  "description": "Elf kostenlose Claude-Skills auf Deutsch, die dir helfen, Startkapital von Investoren zu holen: Konkurrenz-Schwachstellen, Marktgröße, passende Investoren mit Quelle, Businessplan, Pitch Deck, Finanzplan, Förderung, Gesprächsvorbereitung und der Closer, der persönliche Mails als Entwurf schreibt und nachfasst. Kostenlos, MIT.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Willi Neubauer",
+    "url": "https://willineubauer.com"
+  },
+  "homepage": "https://github.com/neubauerwilli/seed-skill",
+  "repository": "https://github.com/neubauerwilli/seed-skill",
+  "license": "MIT",
+  "keywords": ["claude-code", "claude-skills", "deutsch", "startkapital", "investoren", "pitch-deck", "businessplan", "seed", "foerderung"]
+}

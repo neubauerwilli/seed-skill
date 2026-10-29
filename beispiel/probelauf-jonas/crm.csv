@@ -1,0 +1,12 @@
+﻿id;name;typ;kontakt;quelle;status;erste_nachricht;letzter_kontakt;nachfass_anzahl;naechster_nachfass;notiz
+1;Calm/Storm Ventures;Fonds;Formular;https://calmstorm.vc/pitch;offen;;;0;;Fit 4
+2;Business Angels Deutschland (BAND);Verband;"Pitchdeck-Upload; band@business-angels.de";https://www.business-angels.de/;offen;;;0;;Fit 3
+3;Berlin Angel Club (BACB);Angel-Club;"kontakt@bacb.de; Formular";https://bacb.de/en/startups-eng/;entwurf;;;0;;Fit 3
+4;BayStartUP;Netzwerk;Anmeldung Wettbewerb;https://www.baystartup.de/;offen;;;0;;Fit 3, nur bei Sitz in Bayern
+5;Speedinvest;Fonds;Formular;https://www.speedinvest.com/connect;offen;;;0;;Fit 3
+6;Cherry Ventures;Fonds;opportunity@cherry.vc;https://www.cherry.vc/contact;entwurf;;;0;;Fit 2
+7;Angels4Health;Angel-Netzwerk;Formular;https://angels4health.com/startups/;offen;;;0;;Fit 2
+8;Companisto;Crowdinvesting;Finanzierungsanfrage;https://www.companisto.com/de;offen;;;0;;Fit 2
+9;Cavalry Ventures;Fonds;Website cavalry.vc;https://cavalry.vc/;offen;;;0;;Fit 2, nur Dritt-Quelle, evtl. umbenannt
+10;High-Tech Gründerfonds (HTGF);Fonds;kein Weg gefunden;https://www.htgf.de/de/;offen;;;0;;Fit 1, Ticket ab 800.000 Euro
+11;Bayern Kapital;Beteiligungsgesellschaft;kein Weg gefunden;https://www.bayernkapital.de/;offen;;;0;;Fit 1, Ticket ab 250.000 Euro
