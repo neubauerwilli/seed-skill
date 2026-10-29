@@ -23,7 +23,7 @@ Werkzeug in diesem Ordner:
 python3 "${CLAUDE_SKILL_DIR}/finanzplan.py" seed/zahlen.json --out seed/finanzplan.md
 ```
 
-Unter Windows heißt der Aufruf oft `py` statt `python3`. Das Werkzeug braucht nur die
+Unter Windows nimm gleich `py` statt `python3`, dort fehlt `python3` meistens. Das Werkzeug braucht nur die
 Standardbibliothek.
 
 ## Grundregeln

@@ -26,6 +26,8 @@ python3 "${CLAUDE_SKILL_DIR}/versand.py" freigabe seed/closer/01-name.md --reply
 python3 "${CLAUDE_SKILL_DIR}/versand.py" status seed/closer/01-name.md
 ```
 
+Unter Windows nimm gleich `py` statt `python3`, dort fehlt `python3` meistens.
+
 ## Grundregeln
 
 - Keine Finanz- oder Rechtsberatung.

@@ -44,7 +44,7 @@ DOUBT_WORDS = {"no", "not", "dont", "don't", "wait", "cancel", "stop", "but", "m
                "stopp", "aber", "vielleicht", "später", "halt", "außer", "wenn", "falls", "doch",
                "erst", "noch", "sonst", "bloß", "nur"}
 EMAIL_RE = re.compile(r"[\w.+\-]+@[\w\-]+(?:\.[\w\-]+)+")
-URL_RE = re.compile(r"^https?://\S+\.\S+$")
+URL_RE = re.compile(r"^https?://\S+\.\S+(\s.*)?$")  # Text hinter dem Link ist erlaubt
 
 
 class VersandError(Exception):

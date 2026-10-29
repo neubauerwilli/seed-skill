@@ -52,6 +52,14 @@ class Pruefen(unittest.TestCase):
         t = (KOPF + TEXT).replace("Quelle: https://beispiel.de/kontakt\n", "")
         self.assertTrue(any("Quelle" in f for f in v.pruefen(t)))
 
+    def test_quelle_mit_zusatztext(self):
+        t = (KOPF + TEXT).replace("Quelle: https://beispiel.de/kontakt", "Quelle: https://beispiel.de/kontakt (Kontaktseite)")
+        self.assertEqual(v.pruefen(t), [])
+
+    def test_quelle_ohne_link(self):
+        t = (KOPF + TEXT).replace("Quelle: https://beispiel.de/kontakt", "Quelle: Kontaktseite")
+        self.assertTrue(any("Quelle" in f for f in v.pruefen(t)))
+
     def test_placeholder_fails(self):
         t = KOPF + TEXT.replace("Frau Muster", "[Name]")
         self.assertTrue(any("Platzhalter" in f for f in v.pruefen(t)))

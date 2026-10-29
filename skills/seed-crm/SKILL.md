@@ -23,7 +23,7 @@ Werkzeug in diesem Ordner:
 python3 "${CLAUDE_SKILL_DIR}/crm.py" faellig seed/crm.csv
 ```
 
-Unter Windows heißt der Aufruf oft `py` statt `python3`. Nur Standardbibliothek, kein
+Unter Windows nimm gleich `py` statt `python3`, dort fehlt `python3` meistens. Nur Standardbibliothek, kein
 Netzwerk, das Werkzeug verschickt nie etwas.
 
 ## Grundregeln
