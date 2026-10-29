@@ -1,18 +1,11 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "seed-skill",
-  "description": "Der Seed Skill für Claude, auf Deutsch",
-  "owner": {
-    "name": "Willi Neubauer",
-    "url": "https://willineubauer.com"
-  },
+  "owner": { "name": "Willi Neubauer" },
   "plugins": [
     {
       "name": "seed-skill",
-      "description": "Elf Claude-Skills für Startkapital: Konkurrenz, Markt, Investoren, Plan, Pitch Deck, Zahlen, Förderung, Closer, Gespräch und Kontaktliste.",
       "source": "./",
-      "category": "productivity",
-      "homepage": "https://github.com/neubauerwilli/seed-skill"
+      "description": "Elf deutsche Claude-Skills, die dir helfen, Startkapital für deine Idee zu holen."
     }
   ]
 }
